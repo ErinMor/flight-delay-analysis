@@ -1,7 +1,5 @@
 # ✈️ Flight Delay Patterns Analysis
 
-![Status](https://img.shields.io/badge/Status-Complete-success)
-![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![SQL](https://img.shields.io/badge/SQL-Analysis-orange)
 
 Analysis of 7+ million domestic flight records from 2024 to uncover systematic delay patterns and inform smarter travel decisions.
@@ -34,7 +32,7 @@ This project investigated four critical questions:
    - Ranked all seven days by delay severity
    - Identified mid-week travel windows with optimal reliability
 
-## 📁 Dataset
+## Dataset
 
 - **Source**: [2024 Flight Delays and Cancellations on Kaggle]((https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024/data?select=flight_data_2024.csv))
 - **Time Period**: January - December 2024
@@ -66,7 +64,7 @@ The dataset was cleaned with:
 - Binary indicators for cancellations/diversions
 - Zero-filled missing delay values
 
-## 🛠️ Technologies
+## Technologies
 
 - **Python 3.x**: Data processing and analysis
 - **SQL**: Complex queries for aggregation and pattern detection
@@ -74,7 +72,7 @@ The dataset was cleaned with:
 - **Pandas**: Data manipulation
 - **NumPy**: Numerical operations
 
-## 📂 Repository Structure
+## Repository Structure
 
 flight-delay-analysis/
 
@@ -96,7 +94,7 @@ flight-delay-analysis/
 3. Open `analysis.ipynb` in Jupyter Notebook
 4. Run all cells to reproduce results
 
-## 📈 Analysis Methodology
+## Analysis Methodology
 
 Each research question was approached systematically:
 
@@ -107,7 +105,7 @@ Each research question was approached systematically:
 
 All metrics include departure delay, arrival delay, late aircraft delay, carrier delay, weather delay, NAS delay, and on-time percentage.
 
-## 💡 Practical Applications
+## Practical Applications
 
 **For Travelers**:
 - Book morning flights to avoid cascade delays
@@ -120,21 +118,18 @@ All metrics include departure delay, arrival delay, late aircraft delay, carrier
 - Hub congestion mitigation could improve system-wide performance
 - Weather contingency planning critical for January travel
 
-## 📄 License
+## License
 
 MIT License - feel free to use this analysis for your own projects!
 
-## 👤 Author
+## Author
 
 **Erin Morgenthaler**
 - GitHub: [@ErinMor](https://github.com/ErinMor)
 - Email: erin.morgenthaler@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Bureau of Transportation Statistics for maintaining comprehensive flight data
 - University of Iowa for academic support
 
----
-
-⭐ If you found this analysis useful, please consider giving it a star!
