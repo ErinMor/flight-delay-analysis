@@ -65,7 +65,7 @@ The dataset was cleaned with:
 
 ```text
 Flight_Delay_Analysis_Project.ipynb              # SQL queries and data processing
-Flight Delay Patterns Analysis_ Final Report.pdf # Full report with visualizations
+Flight_Delay_Patterns_Analysis_ Final Report.pdf # Full report with visualizations
 README.md                                        # Project overview and documentation
 LICENSE                                          # MIT License
 .gitignore                                       # Files excluded from version control
