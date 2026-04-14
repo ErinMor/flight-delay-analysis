@@ -45,18 +45,7 @@ The raw dataset is **not included** in this repository due to its size (~2GB).
 **To replicate this analysis**:
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/hrishitpatil/flight-data-2024/data?select=flight_data_2024.csv)
 2. Place the CSV file in the `data/` directory
-3. Run `analysis.ipynb`
-
-The dataset includes:
-- Snake_case column standardization
-- ISO-formatted dates
-- Binary indicators for cancellations/diversions
-- Zero-filled missing delay values
-
-**To replicate this analysis**:
-1. Download 2024 On-Time Performance data from BTS TranStats
-2. Place CSV file in `data/` directory
-3. Run `analysis.ipynb`
+3. Run `Flight_Delay_Analysis_Project.ipynb`
 
 The dataset was cleaned with:
 - Snake_case column standardization
@@ -74,16 +63,18 @@ The dataset was cleaned with:
 
 ## Repository Structure
 
-## Repository Layout
 ```text
-analysis.ipynb        # SQL queries and data processing
-Flight_Delay_Patterns_Analysis_Final_Report.pdf                   # Full report with visualizations
+Flight_Delay_Analysis_Project.ipynb              # SQL queries and data processing
+Flight Delay Patterns Analysis_ Final Report.pdf # Full report with visualizations
+README.md                                        # Project overview and documentation
+LICENSE                                          # MIT License
+.gitignore                                       # Files excluded from version control
 ```
 
 ### Running the Analysis
 1. Clone this repository
-2. Download the dataset (see `data/README.md`)
-3. Open `analysis.ipynb` in Jupyter Notebook
+2. Download the dataset (see Data Access section above)
+3. Open `Flight_Delay_Analysis_Project.ipynb` in Jupyter Notebook
 4. Run all cells to reproduce results
 
 ## Analysis Methodology
