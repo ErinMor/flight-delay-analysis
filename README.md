@@ -74,19 +74,11 @@ The dataset was cleaned with:
 
 ## Repository Structure
 
-flight-delay-analysis/
-
-├── [README.md](http://README.md)                                          # You are here
-
-├── analysis.ipynb                                     # SQL queries and data processing
-
-├── Flight_Delay_Patterns_Analysis_Final_Report.pdf   # Full report with visualizations
-
-├── data/
-
-│   └── [README.md](http://README.md)                                      # Dataset download instructions
-
-└── .gitignore                                         # Excludes large data files
+## Repository Layout
+```text
+analysis.ipynb        # SQL queries and data processing
+Flight_Delay_Patterns_Analysis_Final_Report.pdf                   # Full report with visualizations
+```
 
 ### Running the Analysis
 1. Clone this repository
